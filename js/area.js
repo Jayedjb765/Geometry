@@ -32,3 +32,9 @@ function rectangle(){
     const areaa =  geta*getb;
     getthearea(areaa , 'rec');
 }
+function rombosh(){
+    const getr = getvale('r');
+    const getm  =  getvale('m');
+    const aarea =  getr*getm;
+    getthearea(aarea,'rmc');
+}
