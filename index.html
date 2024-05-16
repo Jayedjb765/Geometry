@@ -48,13 +48,14 @@
               <h2 class="card-title">Triangle</h2>
               <h3>Area (A) = 0.5 * b * h</h3>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="b">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="h">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="b" placeholder="b">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="h" placeholder="h">
 
               </div>
+              <p>Area  = <span id="tri" >0</span></p>
               
               <div class="card-actions justify-end">
-                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg">Calculate</button>
+                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg" onclick="triangleValue()">Calculate</button>
               </div>
             </div>
           </div>
@@ -62,15 +63,16 @@
             <figure class="px-8  pt-10"><img src="images/rectangle.png" alt="Shoes" /></figure>
             <div class="card-body items-center">
               <h2 class="card-title">Triangle</h2>
-              <h3>Area (A) = 0.5 * b * h</h3>
+              <h3>Area (A) = a*b</h3>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="b">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="h">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="a" placeholder="a">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="b" placeholder="b">
 
               </div>
+              <p>Area  = <span id="rec" >0</span></p>
               
               <div class="card-actions justify-end">
-                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg">Calculate</button>
+                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg" onclick="rectangle()">Calculate</button>
               </div>
             </div>
           </div>
@@ -79,9 +81,10 @@
             <div class="card-body items-center">
               <h2 class="card-title">Triangle</h2>
               <h3>Area (A) = 0.5 * b * h</h3>
+              <p>Area  = <span >0</span></p>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="b">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="h">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="">
 
               </div>
               
@@ -112,8 +115,8 @@
               <h2 class="card-title">Triangle</h2>
               <h3>Area (A) = 0.5 * b * h</h3>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="b">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="h">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="">
 
               </div>
               
@@ -133,6 +136,7 @@
       
 
      </main>
+     <script src="js/area.js"></script>
     
 </body>
 </html>
