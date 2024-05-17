@@ -48,11 +48,11 @@
               <h2 class="card-title">Triangle</h2>
               <h3>Area (A) = 0.5 * b * h</h3>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="b" placeholder="b">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="h" placeholder="h">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="b" placeholder="b"><span class="ml-1">cm</span>
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="h" placeholder="h"><span class="ml-1">cm</span>
 
               </div>
-              <p>Area  = <span id="tri" >0</span></p>
+              <p>Area  = <span id="tri" >0</span>cm <sup>2</sup></p>
               
               <div class="card-actions justify-end">
                 <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg" onclick="triangleValue()">Calculate</button>
@@ -65,11 +65,11 @@
               <h2 class="card-title">rectangle</h2>
               <h3>Area (A) = a*b</h3>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="a" placeholder="a">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="b" placeholder="b">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="a" placeholder="a"><span class="ml-1">cm</span>
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="b" placeholder="b"><span class="ml-1">cm</span>
 
               </div>
-              <p>Area  = <span id="rec" >0</span></p>
+              <p>Area  = <span id="rec" >0</span>cm <sup>2</sup></p>
               
               <div class="card-actions justify-end">
                 <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg" onclick="rectangle()">Calculate</button>
@@ -81,13 +81,13 @@
             <div class="card-body items-center">
               <h2 class="card-title">Rombosh</h2>
               <h3>Area (A) = r * m</h3>
-              <p>Area  = <span >0</span></p>
+        
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="r" placeholder="r">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="m" placeholder="m">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="r" placeholder="r"><span class="ml-1">cm</span>
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="m" placeholder="m"><span class="ml-1">cm</span>
 
               </div>
-              <p>Area  = <span id="rmc" >0</span></p>
+              <p>Area  = <span id="rmc" >0</span>cm <sup>2</sup></p>
               <div class="card-actions justify-end">
                 <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg" onclick="rombosh()">Calculate</button>
               </div>
@@ -96,38 +96,38 @@
           <div class="card card-compact w-[320px] bg-base-100 shadow-xl">
             <figure class="pt-4"><img src="images/pentagon.png" alt="Shoes" /></figure>
             <div class="card-body items-center">
-              <h2 class="card-title">Triangle</h2>
-              <h3>Area (A) = 0.5 * b * h</h3>
+              <h2 class="card-title">pentagon</h2>
+              <h3>Area (A) = 1/4 * sqrt(5 * 5 + 2 sqrt(5)) * (a*a) </h3>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="b">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="h">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="x" placeholder="x"><span class="ml-1">cm</span>
 
               </div>
-              <p>Area  = <span id="rec" >0</span></p>
+              <p>Area  = <span id="penta" >0</span>cm <sup>2</sup></p>
               <div class="card-actions justify-end">
-                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg">Calculate</button>
+                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg" onclick=" pentagon()">Calculate</button>
               </div>
             </div>
           </div>
           <div class="card card-compact w-[320px] bg-base-100 shadow-xl">
             <figure class="pt-10 px-4"><img src="images/parallelogram.png" alt="Shoes" /></figure>
             <div class="card-body items-center">
-              <h2 class="card-title">Triangle</h2>
-              <h3>Area (A) = 0.5 * b * h</h3>
+              <h2 class="card-title">Parallelogram</h2>
+              <h3>Area (A) =  e * f</h3>
               <div class="my-2">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="">
-                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="" placeholder="">
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="e" placeholder="e"><span class="ml-1">cm</span>
+                <input class="border-solid border-2 rounded-lg px-2 w-[95px]" type="text" name="" id="f" placeholder="f"><span class="ml-1">cm</span>
 
               </div>
-              <p>Area  = <span id="rec" >0</span></p>
+              <p>Area  = <span id="pentaa" >0</span>cm <sup>2</sup></p>
               <div class="card-actions justify-end">
-                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg">Calculate</button>
+                <button class="bg-blue-600 text-white font-bold px-4 py-2 rounded-lg" onclick="parallelogram()">Calculate</button>
               </div>
             </div>
           </div>
         </div>
         <div class=" border-solid border-2  w-[400px] h-[400px] text-center">
           <h3>Area Calculation</h3>
+          <div id="calculationentry"></div>
   
         </div>
 
